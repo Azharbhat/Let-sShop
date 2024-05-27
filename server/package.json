@@ -1,0 +1,27 @@
+{
+  "name": "letsshopserver",
+  "version": "1.0.0",
+  "description": "Test Server for SHEMA",
+  "proxy": "http://localhost:3000/1 ",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server"
+  },
+  "author": "Bereket Lemma",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "chap": "^0.4.0",
+    "chapa": "^1.0.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.3",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
